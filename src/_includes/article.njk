@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elastic vs. Amazon</title>
+    <link
+      rel="icon"
+      href="https://seeklogo.com/images/E/elasticsearch-logo-C75C4578EC-seeklogo.com.png"
+    />
+
+    <base href="/" />
+    <link rel="stylesheet" href="assets/css/tailwind.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+  </head>
+  <body class="flex flex-col items-center font-sans">
+    {% include "navbar.njk" %}
+    <div class="markdown max-w-2xl p-6 pt-0 w-full pb-40">
+      {{ content | safe }}
+    </div>
+  </body>
+</html>

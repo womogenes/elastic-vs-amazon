@@ -1,0 +1,18 @@
+@import './markdown.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img {
+  @apply mb-4;
+  @apply rounded-lg;
+}
+
+body {
+  @apply dark:bg-neutral-900 dark:text-white;
+}
+
+.markdown a {
+  @apply dark:text-blue-400;
+}
