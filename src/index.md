@@ -25,13 +25,13 @@ Elastic is a tech company most widely known for Elasticsearch, a popular search 
 In 2015, Amazon Web Services (AWS) started to offer managed Elasticsearch services on their cloud platform as "Amazon Elasticsearch Services." Though Amazon was within their rights to do this under the Apache 2.0 license, Elastic was unhappy for a couple reasons:
 
 1. Because Amazon's new service was also named Elasticsearch, consumers were confused about which product was which.
-2. Amazon was reportedly making more off of this product than Elastic, and didn't share any of its revenue. ([New York Times](https://www.nytimes.com/2019/12/15/technology/amazon-aws-cloud-competition.html))
+2. Amazon was reportedly making more off of this product than Elastic, and didn't share any of its revenue. ([Wakabayashi](https://www.nytimes.com/2019/12/15/technology/amazon-aws-cloud-competition.html))
 
 ### How did Elastic respond?
 
 Elastic took a number of steps in response to Amazon Elasticsearch Services. In September of 2017, Elastic filed a federal lawsuit against Amazon for trademark infringement. They also created more paid, proprietary features (which Amazon re-implemented as "Open Distro for Elasticsearch" and offered to its users for free).
 
-The final nail in the coffin came in January 2021, when Elastic announced that it would be switching the Elasticsearch license from Apache 2.0 to the Server-Side Public License. In the announcement ["Amazon: NOT OK - why we had to change Elastic licensing,"](https://www.elastic.co/blog/why-license-change-aws) Elastic founder and CEO states:
+The final nail in the coffin came in January 2021, when Elastic announced that it would be switching the Elasticsearch license from Apache 2.0 to the [Server-Side Public License](https://www.mongodb.com/legal/licensing/server-side-public-license). In the announcement ["Amazon: NOT OK - why we had to change Elastic licensing,"](https://www.elastic.co/blog/why-license-change-aws) Elastic founder and CEO states:
 
 > When Amazon announced their Open Distro for Elasticsearch fork, they used code that we believe was copied by a third party from our commercial code and provided it as part of the Open Distro project. We believe this further divided our community and drove additional confusion.
 >

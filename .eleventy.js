@@ -1,7 +1,19 @@
 const katex = require('katex');
+const markdownIt = require('markdown-it');
+
+console.log(markdownIt);
 
 module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy('src/assets/figures');
+
+  eleventyConfig.setLibrary(
+    'md',
+    markdownIt({
+      linkify: true,
+      typographer: true,
+    }),
+  );
+
   eleventyConfig.addFilter('latex', (content) => {
     return content
       .replace(/\$\$((?:.|\n)+?)\$\$/g, (_, equation) => {
