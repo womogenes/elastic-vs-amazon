@@ -13,13 +13,18 @@
     <link rel="stylesheet" href="assets/css/tailwind.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/katex@latest/dist/katex.min.css"
+    />
+
   </head>
   <body class="flex flex-col items-center font-sans">
     {% include "navbar.njk" %}
     <div class="markdown max-w-2xl p-6 pt-0 w-full pb-40">
-      {{ content | safe }}
+      {{ content | latex | safe }}
     </div>
   </body>
 </html>

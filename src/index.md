@@ -7,7 +7,7 @@ layout: article.njk
 _by William Y. Feng \
 May 30, 2024_
 
-In 2021, software startup Elastic stood up to Amazon in one of the most historic fights in the tech space. Let's investigate how it got to this point.
+In 2021, software company Elastic stood up to Amazon Web Services in one of the most historic fights in the tech space.
 
 ![](https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt11797b8c899b0a4f/620d211200f003242ae1138e/announcement-elastic-aws-blog-1680x980.png)
 _[Source: Elastic](https://www.elastic.co/blog/elastic-and-amazon-reach-agreement-on-trademark-infringement-lawsuit)_
@@ -22,16 +22,16 @@ Elastic is a tech company most widely known for Elasticsearch, a popular search 
 
 ### How did Amazon get involved?
 
-In 2015, Amazon started to offer managed Elasticsearch services on their cloud platform as "Amazon Elasticsearch Services." Though Amazon was entitled to do this under the Apache 2.0 license, Elastic was unhappy for a couple reasons:
+In 2015, Amazon Web Services (AWS) started to offer managed Elasticsearch services on their cloud platform as "Amazon Elasticsearch Services." Though Amazon was within their rights to do this under the Apache 2.0 license, Elastic was unhappy for a couple reasons:
 
 1. Because Amazon's new service was also named Elasticsearch, consumers were confused about which product was which.
 2. Amazon was reportedly making more off of this product than Elastic, and didn't share any of its revenue. ([New York Times](https://www.nytimes.com/2019/12/15/technology/amazon-aws-cloud-competition.html))
 
 ### How did Elastic respond?
 
-Elastic took a couple of steps in response to Amazon's new service. In September of 2017, Elastic filed a federal lawsuit against Amazon for trademark infringement. They also created more paid, proprietary features (which Amazon re-implemented as "Open Distro for Elasticsearch" and offered to its users for free).
+Elastic took a number of steps in response to Amazon Elasticsearch Services. In September of 2017, Elastic filed a federal lawsuit against Amazon for trademark infringement. They also created more paid, proprietary features (which Amazon re-implemented as "Open Distro for Elasticsearch" and offered to its users for free).
 
-The final nail in the coffin came in January 2021, when Elastic announced that it would be switching the Elasticsearch license from Apache 2.0 to the Server-Side Public License. In the announcement, ["Amazon: NOT OK - why we had to change Elastic licensing,"](https://www.elastic.co/blog/why-license-change-aws) Elastic founder and CEO states:
+The final nail in the coffin came in January 2021, when Elastic announced that it would be switching the Elasticsearch license from Apache 2.0 to the Server-Side Public License. In the announcement ["Amazon: NOT OK - why we had to change Elastic licensing,"](https://www.elastic.co/blog/why-license-change-aws) Elastic founder and CEO states:
 
 > When Amazon announced their Open Distro for Elasticsearch fork, they used code that we believe was copied by a third party from our commercial code and provided it as part of the Open Distro project. We believe this further divided our community and drove additional confusion.
 >
@@ -46,4 +46,4 @@ Elasticsearch's new Server-Side Public License (SSPL) is not open-source, and th
 1. Create a fork of the latest Apache-licensed version of Elasticsearch and continue offering it as a service service, sharing no revenue with Elastic.
 2. Collaborate with Elastic, selling the official version of Elasticsearch on Amazon's infrastructure and share some revenue.
 
-Let's look at the game theory behind this. [/game-theory](/game-theory)
+Let's look at the game theory behind Elastic's decision to change the Elasticsearch license. -> [/game-theory](/game-theory)
