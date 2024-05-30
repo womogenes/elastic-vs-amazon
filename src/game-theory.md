@@ -38,6 +38,9 @@ Elastic must decide whether to change their license from Apache 2.0 to SSPL. If 
 2. If Elastic changes their license and Amazon cooperates, both companies profit if cooperation is profitable and only Elastic profits if cooperation is unprofitable.
 3. If Elastic changes their license and Amazon doesn't cooperate, both companies lose out on profit and Elastic would take an especially hard hit to its reputation for going back on its commitment to open-source.
 
+![](https://media.discordapp.net/attachments/780817803380260877/1245804724138283028/image.png?ex=665a1590&is=6658c410&hm=4a3974102d04579c0227b19e03533fbbf11e15ea88f683b08c3df51b6f02594a&=&format=webp&quality=lossless&width=680&height=527)
+_Extended form game with fixed payoffs._
+
 ### When is a pure license change sensible?
 
 To determine the conditions under which a license change is sensible, we do casework on whether cooperating is profitable for Amazon or not. Suppose the probability of cooperation being profitable is $p$. Then:
@@ -57,12 +60,15 @@ $$
 \end{aligned}
 $$
 
-### Brinkmanship (threat of a license change)
+### Brinkmanship
 
 However, because the market is unpredictable, it is possible that an Elasticsearch license change and ensuing Amazon non-cooperation isn't as disastrous as predicted. This would result in the "no change" payoffs. Suppose the probability that Amazon not cooperating results in no change at all is $1 - q$. Then we revise the payoffs as follows:
 
 1. Elastic: $-5q - 2(1-q) = -2 - 3q$
 2. Amazon: $-2q + 0(1-q) = -2q$
+
+![](https://media.discordapp.net/attachments/780817803380260877/1245804756299944088/image.png?ex=665a1597&is=6658c417&hm=688318e5c0a1ec5dc49a24733334ef786e3129a8e564e056b06cb81835304140&=&format=webp&quality=lossless&width=745&height=527)
+_Extended form game with probabilistic payoffs due to market volatility._
 
 ### Effectiveness condition
 
@@ -95,3 +101,5 @@ $$
 ## Graph
 
 ![](assets/figures/graph.png)
+
+For a short analysis of what happened, see the [/assessment](/assessment).
